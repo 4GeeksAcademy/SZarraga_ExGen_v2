@@ -22,18 +22,8 @@ function excuseGen(){
     let whatNum=Math.floor(Math.random() * 3);
     let whenNum=Math.floor(Math.random() * 5);
 
-
-
     excuse= issue[issueNum] + action[actionNum] + what[whatNum] + when[whenNum];
 
-
-    console.log(issueNum);
-    console.log(actionNum);
-    console.log(whatNum);
-    console.log(whenNum);
-    console.log(excuse);
     return excuse;
    
-
-
 }
